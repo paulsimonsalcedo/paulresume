@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	background-color: #2E2E2E;
+
+}
+.auto_height_increment{
+	height: 20px;
+}
+header nav{
+	height: 80px;
+	transition: 0.5s;
+
+	}
+header nav .container .collapse{
+	background-color: transparent;
+}
+header nav .container .collapse.show {
+	box-shadow: 0 10px 30px #5B5B5B;
+	background: #313131;
+}
+header nav .container .collapse.show a{
+	color: #FE5050;
+	margin-left: 10px;
+}
+
+header nav .collapse ul li a{
+	color: #808080;      
+	font-size: 18px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+header nav .collapse ul li a:hover{
+	color: #D6D6D6;
+}
+
+header.sticky nav .collapse ul li a{
+	color: #FFFFFF;
+    transition: 0.5s;
+}
+header.sticky nav{
+	background: #2E2E2E;
+	transition: 0.5s;
+	height: 60px;
+	box-shadow: 0 6px 20px -5px #8B8B8B;
+}
+header.sticky nav .navbar-brand img{
+	margin-top: -5px;
+	width: 80px;
+}
+header nav .navbar-brand img{
+	width: 100px;
+}
+.home_page{
+height: 700px;
+position: relative;
+}
+.home_page .row_home_profile{
+	padding: 70px 150px 0px 150px;
+}
+.home_page .row_home_profile img{
+	width: 530px;
+	margin-left: 20%;
+}
+.home_page .content{
+	margin-left: 25%;
+}
+.home_page .content p{
+ 	font-family: 'Raleway', sans-serif ;
+ 	color: #B7B7B7 ;
+ 	font-size: 20px;
+} 
+.home_page .content .socials a{
+	font-size: 30px;
+	color: #DDDDDD;
+	padding-left: 10px;
+
+	
+}
+.home_page .content span{
+	color: #FE5050;
+	text-decoration: underline;
+}
+.home_page .content .line-through{
+	text-decoration: line-through;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+.home_page .content .bounce{
+	color: #FE5050;
+	font-size: 25px;
+
+}
+
+.home_page .content .bounce a{
+	background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+	background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+	background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	animation: bounce 2s infinite !important;
+}
+.home_page .content .fas{
+	background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+    background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.home_page .content .socials a:hover{
+	background-color: #FE5050;
+	transition: 0.5s;
+	color: #2E2E2E;
+	padding: 10px;
+	border-radius: 10px;
+}
+@keyframes bounce{
+ 0% , 20%, 50%, 80%, 100%{
+ 	transform: translateY(0);
+ }
+ 40%{
+ 	transform: translateY(-30%);
+ }
+ 60%{
+ 	transform: translateY(-60%);
+ }
+}
+
+/********** ROW 2 ********************/
+.section_2{
+	position: relative;
+	height: 700px;
+	padding-top: 80px;
+}
+.section_2 .for_banner{
+	text-align: center;	
+}
+.section_2 .title_about{
+	text-align: center;
+	padding: 10px;
+}
+
+.section_2 .title_about h2{
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	color: #998933;	
+}
+.section_2 .title_about::after{
+	content: '';
+	display: flex;
+	height: 2px;
+	background: #FE5050;
+	width: 120px;
+	margin-left: 44.5%;
+}
+.section_2 .for_banner .banner_content{
+
+	padding: 30px;
+	width: 400px;
+	text-align: left;
+	position: absolute;
+	margin: 70px 0px 0px 100px;
+	border-radius: 30px;
+}
+.section_2 .for_banner .banner_content p{
+	color: #D7D7D7;
+	font-family: monospace;
+	font-size: 15px;
+}
+.section_2 .for_banner img{
+	width: 1000px !important;
+	height: 450px !important;
+	align-items: center;
+}
+/*********RESUME ********/
+
+.section_3{
+	position: relative;
+	height: 1000px;
+	padding-top: 80px;
+
+}
+.section_3 .container{
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	width: 100%;
+
+
+}
+.section_3 .title_resume{
+	text-align: center;
+	padding: 10px;
+}
+.section_3 .title_resume h2{
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	color: #998933;
+}
+.section_3 .title_resume::after{
+	content: '';
+	background-color: #FE5050;
+	height: 2px;
+	width: 120px;
+	display: flex;
+	margin-left: 45.5%;
+}
+.section_3 .container .left {
+
+	background: #003147;
+	position: relative;
+	padding: 40px;
+	min-height: 800px;
+
+}
+.section_3 .container .left .ic2x2{
+	text-align: center;
+}
+.section_3 .container .left .ic2x2 .nAme p span{
+	color: #E35B5B;
+	font-size: 15px;
+}
+.section_3 .container .left .ic2x2 .nAme p{
+ 	font-size: 20px;
+ 	color: #C1C1C1;
+ 	font-family: FreeMono, monospace;
+ 	padding: 15px;	
+}	
+
+.section_3 .container .left .ic2x2 .nAme p:after{
+	content: '';
+	height: 4px;
+	margin-top: 20px;
+	width: 250px;
+	display: flex;
+	background-color: #fff;
+	margin-left: 10px;
+}
+.section_3 .container .left .ic2x2 img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+
+}
+.section_3 .container .right{
+
+	background: #FFF;
+	position: relative;
+	padding: 40px;
+}
+.section_3 .container .right .prof h3{
+	 color: #00224B;
+	 font-family: Rockwell;
+}
+.section_3 .container .right .prof h3::after{
+	 content: '';
+	 height: 3px;
+	 width: 100px;
+	 background: #998933;
+	 display: flex;
+
+}	
+.section_3 .container .right .prof p{
+	 font-family: Segoe UI;
+}
+
+
+
+
+/*********GUESSGAMEPART**************/
+.section_4{
+	height: 700px;
+	padding-top: 80px;
+	position: relative;
+}
+.section_4 .container .guessGame h2{
+	color: #fff;
+}
+.section_4 .container .guessGame span{
+color: #EC5B5B;
+}
