@@ -41,7 +41,10 @@ header.sticky nav .collapse ul li a{
     transition: 0.5s;
 }
 header.sticky nav{
-	
+	background: #2E2E2E;
+	transition: 0.5s;
+	height: 60px;
+	box-shadow: 0 6px 20px -5px #8B8B8B;
 }
 header.sticky nav .navbar-brand img{
 	margin-top: -5px;
@@ -251,9 +254,9 @@ position: relative;
 	position: relative;
 	padding: 40px;
 }
-.section_3 .container .right .prof h3{
+.section_3 .container .right .prof h3,p{
 	 color: #00224B;
-	 font-family: Rockwell;
+	 font-family: Courier New, monospace;
 }
 .section_3 .container .right .prof h3::after{
 	 content: '';
@@ -264,9 +267,8 @@ position: relative;
 
 }	
 .section_3 .container .right .prof p{
-	 font-family: Segoe UI;
+	 font-family:  FreeMono, monospace;;
 }
-
 
 
 
