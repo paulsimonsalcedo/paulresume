@@ -167,8 +167,15 @@ position: relative;
 	width: 400px;
 	text-align: left;
 	position: absolute;
-	margin: 70px 0px 0px 100px;
+	margin: 70px 0px 0px -50px;
 	border-radius: 30px;
+	opacity: 0;
+	transition: 0.5s;
+}
+.section_2 .for_banner .banner_content.active{
+	transition: 3.5s;
+	margin-left: 120px;
+	opacity: 1;
 }
 .section_2 .for_banner .banner_content p{
 	color: #D7D7D7;
