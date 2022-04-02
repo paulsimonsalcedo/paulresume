@@ -136,6 +136,16 @@ position: relative;
 }
 
 /********** ROW 2 ********************/
+.section_2 .title_about span{
+ 	color: #FF6969;
+}
+.section_2 .title_about h1{
+	font-size: 130px;
+	color: #E8E8E8;
+	font-family: Lucida Sans;
+	line-height: 8rem;
+
+}
 .section_2{
 	position: relative;
 	height: 700px;
@@ -144,23 +154,7 @@ position: relative;
 .section_2 .for_banner{
 	text-align: center;	
 }
-.section_2 .title_about{
-	text-align: center;
-	padding: 10px;
-}
 
-.section_2 .title_about h2{
-	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-	color: #998933;	
-}
-.section_2 .title_about::after{
-	content: '';
-	display: flex;
-	height: 2px;
-	background: #FE5050;
-	width: 120px;
-	margin-left: 44.5%;
-}
 .section_2 .for_banner .banner_content{
 
 	padding: 30px;
@@ -188,6 +182,18 @@ position: relative;
 	align-items: center;
 }
 /*********RESUME ********/
+.section_3 .title_resume span{
+ 	color: #FF6969;
+}
+.section_3 .title_resume h1{
+	font-size: 130px;
+	color: #E8E8E8;
+	font-family: Lucida Sans;
+	line-height: 8rem;
+	position: relative;
+	left: 80px;
+
+}
 
 .section_3{
 	position: relative;
@@ -203,22 +209,7 @@ position: relative;
 
 
 }
-.section_3 .title_resume{
-	text-align: center;
-	padding: 10px;
-}
-.section_3 .title_resume h2{
-	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-	color: #998933;
-}
-.section_3 .title_resume::after{
-	content: '';
-	background-color: #FE5050;
-	height: 2px;
-	width: 120px;
-	display: flex;
-	margin-left: 45.5%;
-}
+
 .section_3 .container .left {
 
 	background: #003147;
