@@ -28,7 +28,7 @@ window.addEventListener("scroll", function(){
 	});
 		$("#click_scroll4").click(function() {
 	    	$('html,body').animate({
-	        scrollTop: $("#game").offset().top},
+	        scrollTop: $("#techstack").offset().top},
 	        'slow' > 2);
 	});
 

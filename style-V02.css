@@ -140,10 +140,11 @@ position: relative;
  	color: #FF6969;
 }
 .section_2 .title_about h1{
-	font-size: 130px;
+	font-size: 100px;
 	color: #E8E8E8;
 	font-family: Lucida Sans;
-	line-height: 8rem;
+	line-height: 6rem;
+	margin-left: 50px;
 
 }
 .section_2{
@@ -182,17 +183,16 @@ position: relative;
 	align-items: center;
 }
 /*********RESUME ********/
-.section_3 .title_resume span{
+.section_3 .top .title_resume span{
  	color: #FF6969;
 }
-.section_3 .title_resume h1{
-	font-size: 130px;
+.section_3 .top .title_resume h1{
+	font-size: 100px;
 	color: #E8E8E8;
 	font-family: Lucida Sans;
-	line-height: 8rem;
+	line-height: 6rem;
 	position: relative;
-	left: 80px;
-
+	margin-left: 50px;
 }
 
 .section_3{
@@ -271,15 +271,32 @@ position: relative;
 
 
 
-/*********GUESSGAMEPART**************/
+/*********TechStack**************/
 .section_4{
-	height: 700px;
-	padding-top: 80px;
-	position: relative;
+	min-height: 100vh;
 }
-.section_4 .container .guessGame h2{
+.section_4 .title_tech
+{
+position: relative;
+ top: 60px;
+}
+.section_4 .title_tech h1{
+	font-size: 100px;
 	color: #fff;
+	font-family: Lucida Sans;
+	line-height: 6rem;
+	margin-left: 50px;
+	margin-top: 50px;
 }
-.section_4 .container .guessGame span{
-color: #EC5B5B;
+.section_4 .title_tech span{
+	color: #FF6969;
+}
+.section_4 .top-card-html{
+	width: 400px;
+	background-color: darkred;
+	height: 250px;
+}
+.section_4 .top-card-html img
+{
+	width: 100px;
 }
