@@ -26,9 +26,14 @@ window.addEventListener("scroll", function(){
 	        scrollTop: $("#resume").offset().top},
 	        'slow' > 2);
 	});
-		$("#click_scroll4").click(function() {
+	$("#click_scroll4").click(function() {
 	    	$('html,body').animate({
 	        scrollTop: $("#techstack").offset().top},
+	        'slow' > 2);
+	});
+	$("#click_scroll5").click(function() {
+	    	$('html,body').animate({
+	        scrollTop: $("#RecentProject").offset().top},
 	        'slow' > 2);
 	});
 

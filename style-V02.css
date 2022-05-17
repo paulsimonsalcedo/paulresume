@@ -365,3 +365,19 @@ position: relative;
 	filter: grayscale(0);
 	-webkit-filter: grayscale(0);
 }
+
+/******RECENT PROJECTS*****/
+.section_5{
+	min-height: 100vh;
+}
+.RecentProject_title h1{
+	font-size: 100px;
+	color: #fff;
+	font-family: Lucida Sans;
+	line-height: 6rem;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.RecentProject_title span{
+	color: #FF6969;
+}
