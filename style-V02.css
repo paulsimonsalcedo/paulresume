@@ -368,7 +368,8 @@ position: relative;
 
 /******RECENT PROJECTS*****/
 .section_5{
-	min-height: 100vh;
+min-height: 100vh;
+
 }
 .RecentProject_title h1{
 	font-size: 100px;
@@ -380,4 +381,33 @@ position: relative;
 }
 .RecentProject_title span{
 	color: #FF6969;
+}
+.carousel-img{
+	transition: 3s;
+}
+.carousel-img:hover{
+	position: relative;
+	transform: scale(1.5);
+	transition: 3s;
+}
+
+/**** FOOTER *******/
+
+footer{
+	height: 100px;
+	margin-top: 200px;
+}
+.LastPart{
+	border-top: 2px solid #3D3D3D;
+	display: flex;
+	justify-content: space-between;
+}
+.MyName p{
+	color: #868686;
+}
+.icons i{
+	color: #5F5F5F;
+	font-size: 15px;
+	padding-right: 5px;
+
 }
