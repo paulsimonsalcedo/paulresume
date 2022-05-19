@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&display=swap');
 body{
 	padding: 0;
 	margin: 0;
@@ -31,6 +32,7 @@ header nav .collapse ul li a{
 	font-size: 18px;
 	transition: 0.5s;
 	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
 }
 header nav .collapse ul li a:hover{
 	color: #D6D6D6;
@@ -197,7 +199,7 @@ position: relative;
 
 .section_3{
 	position: relative;
-	height: 1000px;
+	height: 1098px;
 	padding-top: 80px;
 
 }
@@ -268,12 +270,110 @@ position: relative;
 .section_3 .container .right .prof p{
 	 font-family:  FreeMono, monospace;;
 }
+.section_3 .container .right .prof .programmingSkills{
+	border: 2px solid #003147;
+	padding: 15px;
+
+}
+.section_3 .container .right .prof .programmingSkills .fstSkill,
+.section_3 .container .right .prof .programmingSkills .sndSkill,
+.section_3 .container .right .prof .programmingSkills .thrdSkill,
+.section_3 .container .right .prof .programmingSkills .frthSkill,
+.section_3 .container .right .prof .programmingSkills .ffthSkill,
+.section_3 .container .right .prof .programmingSkills .sxthSkill{
+	display: flex;
+}
+/**********************GRAPH SKILLS 1 **********************/
+.section_3 .container .right .prof .programmingSkills .fstSkill .no-color{
+	width: 500px;
+	background: #E1E1E1;
+	border-radius: 50px;
+	height: 16px;
+	margin-left: 100px;
+}
+.section_3 .container .right .prof .programmingSkills .fstSkill .with-color{
+	width: 400px;
+	background: #EC6868;
+	border-radius: 50px;
+	height: 16px;
+}
+/**********************GRAPH SKILLS 2 **********************/
+.section_3 .container .right .prof .programmingSkills .sndSkill .no-color{
+	width: 500px;
+	background: #E1E1E1;
+	border-radius: 50px;
+	height: 16px;
+	margin-left: 116px;
+}
+.section_3 .container .right .prof .programmingSkills .sndSkill .with-color{
+	width: 350px;
+	background: #EC6868;
+	border-radius: 50px;
+	height: 16px;
+}
+/**********************GRAPH SKILLS 3 **********************/
+.section_3 .container .right .prof .programmingSkills .thrdSkill .no-color{
+	width: 500px;
+	background: #E1E1E1;
+	border-radius: 50px;
+	height: 16px;
+	margin-left: 49px;
+}
+.section_3 .container .right .prof .programmingSkills .thrdSkill .with-color{
+	width: 100px;
+	background: #EC6868;
+	border-radius: 50px;
+	height: 16px;
+}
+/**********************GRAPH SKILLS 4 **********************/
+.section_3 .container .right .prof .programmingSkills .frthSkill .no-color{
+	width: 500px;
+	background: #E1E1E1;
+	border-radius: 50px;
+	height: 16px;
+	margin-left: 106px;
+
+}
+.section_3 .container .right .prof .programmingSkills .frthSkill .with-color{
+	width: 250px;
+	background: #EC6868;
+	border-radius: 50px;
+	height: 16px;
+}
+/**********************GRAPH SKILLS 5 **********************/
+.section_3 .container .right .prof .programmingSkills .ffthSkill .no-color{
+	width: 500px;
+	background: #E1E1E1;
+	border-radius: 50px;
+	height: 16px;
+	margin-left: 123px;
+}
+.section_3 .container .right .prof .programmingSkills .ffthSkill .with-color{
+	width: 250px;
+	background: #EC6868;
+	border-radius: 50px;
+	height: 16px;
+}
+/**********************GRAPH SKILLS 6 **********************/
+.section_3 .container .right .prof .programmingSkills .sxthSkill .no-color{
+	width: 500px;
+	background: #E1E1E1;
+	border-radius: 50px;
+	height: 16px;
+	margin-left: 112px;
+}
+.section_3 .container .right .prof .programmingSkills .sxthSkill .with-color{
+	width: 20px;
+	background: ##EC6868;
+	border-radius: 50px;
+	height: 16px;
+}
 
 
 
 /*********TechStack**************/
 .section_4{
-	min-height: 100vh;
+	min-height: 30vh;
 }
 .section_4 .title_tech
 {
@@ -367,10 +467,7 @@ position: relative;
 }
 
 /******RECENT PROJECTS*****/
-.section_5{
-min-height: 100vh;
 
-}
 .RecentProject_title h1{
 	font-size: 100px;
 	color: #fff;
