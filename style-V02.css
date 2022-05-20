@@ -56,6 +56,9 @@ header.sticky nav .navbar-brand img{
 header nav .navbar-brand img{
 	width: 100px;
 }
+nav a .active{
+	border-left: 2px solid red;
+}
 .home_page{
 height: 700px;
 position: relative;
@@ -507,4 +510,18 @@ footer{
 	font-size: 15px;
 	padding-right: 5px;
 
+}
+
+/******JAVASCRIPT ONCLICK NAVV ********/
+.aboutActive{
+	border-right: 2px solid red;
+}
+.resumeActive{
+	border-right: 2px solid red;
+}
+.techstackActive{
+	border-right: 2px solid red;
+}
+.projectsActive{
+	border-right: 2px solid red;
 }

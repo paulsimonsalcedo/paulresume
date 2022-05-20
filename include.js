@@ -15,26 +15,33 @@ window.addEventListener("scroll", function(){
 	    	$('html,body').animate({
 	        scrollTop: $("#home").offset().top},
 	        'slow' > 2);
+
 	});
 	$("#click_scroll2").click(function() {
 	    	$('html,body').animate({
 	        scrollTop: $("#abt").offset().top},
 	        'slow' > 2);
+	        $(this).toggleClass("aboutActive");
 	});
 	$("#click_scroll3").click(function() {
 	    	$('html,body').animate({
 	        scrollTop: $("#resume").offset().top},
 	        'slow' > 2);
+	        $(this).toggleClass("resumeActive");
 	});
 	$("#click_scroll4").click(function() {
 	    	$('html,body').animate({
 	        scrollTop: $("#techstack").offset().top},
 	        'slow' > 2);
+	         $(this).toggleClass("aboutActive");
 	});
 	$("#click_scroll5").click(function() {
 	    	$('html,body').animate({
 	        scrollTop: $("#RecentProject").offset().top},
 	        'slow' > 2);
+	         $(this).toggleClass("aboutActive");
 	});
 
-
+/****** IN JQUERY *****
+ * $(this).toggleClass(ClassName);
+ * *******************/
