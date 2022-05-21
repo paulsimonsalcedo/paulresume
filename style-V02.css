@@ -10,6 +10,7 @@ body{
 .auto_height_increment{
 	height: 20px;
 }
+
 header nav{
 	height: 80px;
 	transition: 0.5s;
@@ -56,9 +57,7 @@ header.sticky nav .navbar-brand img{
 header nav .navbar-brand img{
 	width: 100px;
 }
-nav a .active{
-	border-left: 2px solid red;
-}
+
 .home_page{
 height: 700px;
 position: relative;
@@ -186,6 +185,10 @@ position: relative;
 	width: 1000px !important;
 	height: 450px !important;
 	align-items: center;
+}
+.section_2 .active{
+	border-left: 1px solid red;
+	border-right: 1px solid red;
 }
 /*********RESUME ********/
 .section_3 .top .title_resume span{
@@ -513,11 +516,14 @@ footer{
 }
 
 /******JAVASCRIPT ONCLICK NAVV ********/
-.aboutActive{
-	border-right: 2px solid red;
+.scrollActivate{
+	border-bottom: 1px solid red;
 }
-.resumeActive{
-	border-right: 2px solid red;
+.scroll2Activate{
+	border-bottom: 1px solid red;
+}
+.scroll3Activate{
+	border-bottom: 1px solid red;
 }
 .techstackActive{
 	border-right: 2px solid red;

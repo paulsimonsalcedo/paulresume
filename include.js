@@ -9,6 +9,11 @@ window.addEventListener("scroll", function(){
 			reveals.classList.toggle("active", window.scrollY > 30)
 
 
+			var scroll3 = document.getElementById("click_scroll3");
+			var scroll4 = document.getElementById("click_scroll4");
+			var scroll5 = document.getElementById("click_scroll5");
+
+
 		});	
 	
 	$("#click_scroll").click(function() {
@@ -21,25 +26,25 @@ window.addEventListener("scroll", function(){
 	    	$('html,body').animate({
 	        scrollTop: $("#abt").offset().top},
 	        'slow' > 2);
-	        $(this).toggleClass("aboutActive");
+	       
 	});
 	$("#click_scroll3").click(function() {
 	    	$('html,body').animate({
 	        scrollTop: $("#resume").offset().top},
 	        'slow' > 2);
-	        $(this).toggleClass("resumeActive");
+	       
 	});
 	$("#click_scroll4").click(function() {
 	    	$('html,body').animate({
 	        scrollTop: $("#techstack").offset().top},
 	        'slow' > 2);
-	         $(this).toggleClass("aboutActive");
+	         
 	});
 	$("#click_scroll5").click(function() {
 	    	$('html,body').animate({
 	        scrollTop: $("#RecentProject").offset().top},
 	        'slow' > 2);
-	         $(this).toggleClass("aboutActive");
+	  
 	});
 
 /****** IN JQUERY *****
