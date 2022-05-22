@@ -516,18 +516,6 @@ footer{
 }
 
 /******JAVASCRIPT ONCLICK NAVV ********/
-.scrollActivate{
-	border-bottom: 1px solid red;
-}
-.scroll2Activate{
-	border-bottom: 1px solid red;
-}
-.scroll3Activate{
-	border-bottom: 1px solid red;
-}
-.techstackActive{
-	border-right: 2px solid red;
-}
-.projectsActive{
-	border-right: 2px solid red;
+.links.active{
+	background:  red;
 }
