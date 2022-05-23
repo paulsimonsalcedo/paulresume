@@ -9,6 +9,7 @@ window.addEventListener("scroll", function(){
 			reveals.classList.toggle("active", window.scrollY > 30)
 
 
+
 		});	
 	
 	$("#click_scroll").click(function() {
@@ -61,8 +62,16 @@ window.addEventListener("scroll", function(){
 
  function activeMenu(){
  	let len = sec.length;
- 	while(--len && window.scrollY + 97 < sec[len].offsetTop){
- 	}
+ 	while(len-- && window.scrollY + 97 < sec[len].offsetTop){}
  		item.forEach(ltx => ltx.classList.remove("active"));
  		item[len].classList.add("active");
+ }
+
+ let backtotop = document.getElementById("back-to-top");
+ window.addEventListener("scroll", BackAtTop);
+ BackAtTop();
+ function BackAtTop(){
+
+ 	backtotop.classList.toggle("showBacktoTop", window.scrollY > 60);
+ 	backtotop.style.transition = ".5s";
  }

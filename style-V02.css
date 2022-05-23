@@ -515,7 +515,27 @@ footer{
 
 }
 
-/******JAVASCRIPT ONCLICK NAVV ********/
+/******JAVASCRIPT ONSCROLL EFFECT IN NAV ********/
 .links.active{
-	background:  red;
+	background: #EC6868;
+}
+
+/******JAVASCRIPT BACK TO TOP BUTTON ********/
+.back_to_top{
+	font-size: 30px;
+    right: 50px;
+    color: #fff;
+    background: #EC6868;
+    position: fixed;
+    bottom: 45px;
+    z-index: 1000;
+    padding: 1px 10px;
+    border-radius: 10px;
+    opacity: 0;
+}
+.back_to_top:hover{
+	color: #fff;
+}
+.showBacktoTop{
+	opacity: 1;
 }
