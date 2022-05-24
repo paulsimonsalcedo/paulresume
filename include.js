@@ -61,11 +61,14 @@ window.addEventListener("scroll", function(){
   activeMenu();
 
  function activeMenu(){
- 	let len = sec.length;
- 	while(len-- && window.scrollY + 97 < sec[len].offsetTop){}
- 		item.forEach(ltx => ltx.classList.remove("active"));
- 		item[len].classList.add("active");
+ 	let Allsection = sec.length; //All section
+ 	while(Allsection-- && window.scrollY < sec[Allsection].offsetTop){}
+
+ 		item.forEach(eachItem => eachItem.classList.remove("active"));
+ 	    item[Allsection].classList.add("active");
+ 	
  }
+
 
  let backtotop = document.getElementById("back-to-top");
  window.addEventListener("scroll", BackAtTop);
