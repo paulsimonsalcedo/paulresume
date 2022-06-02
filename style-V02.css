@@ -182,7 +182,7 @@ position: relative;
 	font-size: 15px;
 }
 .section_2 .for_banner img{
-	width: 1000px !important;
+	width: 100% !important;
 	height: 450px !important;
 	align-items: center;
 }
@@ -538,4 +538,74 @@ footer{
 }
 .showBacktoTop{
 	opacity: 1;
+}
+#resume .Resume-flex{
+	display: flex;
+}
+/***RESPONSIVE DESIGN *********/
+@media(max-width: 1974px){
+	#resume .right{
+		width: 760px;
+	}
+	#abt .banner_content{
+		margin-left: 200px;
+	}
+}
+
+
+@media(min-width: 1426px){
+	#resume .right{
+		width: 932px;
+	}
+}
+@media(max-width: 1399px){
+	#abt .banner_content{
+		margin-left: 110px
+	}
+	#abt .for_banner img{
+		width: 1227px;
+	}
+}
+@media(max-width: 1199px){
+	#abt .banner_content{
+		margin-left: 44px
+	}
+	#abt .banner_content p{
+		font-size: 12px;
+	}
+}
+@media(max-width: 1074px){
+	#resume .right{
+		width: 646px;
+	}
+	#resume .left{
+		width: 297px;
+	}
+	#resume .left p::after{
+		margin-left: -30px;
+	}
+}
+@media(max-width: 843px){
+	#resume .Resume-flex{
+		display: block;
+	}
+	#resume{
+		height: 1838px;
+	}
+	#resume .left{
+		width: 906px;
+	}
+	#resume .left p::after{
+		margin-left: 274px;
+	}
+	#resume .right{
+		width: 906px;
+	}
+
+}
+@media(max-width: 750px){
+	#resume{
+		height: 2000px;
+	}
+
 }
