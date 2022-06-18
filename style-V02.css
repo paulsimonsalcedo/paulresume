@@ -59,7 +59,7 @@ header nav .navbar-brand img{
 }
 
 .home_page{
-height: 700px;
+max-height: 700px;
 position: relative;
 }
 .home_page .row_home_profile{
@@ -153,7 +153,7 @@ position: relative;
 }
 .section_2{
 	position: relative;
-	height: 700px;
+	max-height: 800px;
 	padding-top: 80px;
 }
 .section_2 .for_banner{
@@ -170,6 +170,7 @@ position: relative;
 	border-radius: 30px;
 	opacity: 0;
 	transition: 0.5s;
+	margin-left: -50px;
 }
 .section_2 .for_banner .banner_content.active{
 	transition: 3.5s;
@@ -205,7 +206,7 @@ position: relative;
 
 .section_3{
 	position: relative;
-	height: 1098px;
+	max-height: 1098px;
 	padding-top: 80px;
 
 }
@@ -380,6 +381,7 @@ position: relative;
 /*********TechStack**************/
 .section_4{
 	min-height: 30vh;
+	max-height: 100vh;
 }
 .section_4 .title_tech
 {
@@ -543,69 +545,47 @@ footer{
 	display: flex;
 }
 /***RESPONSIVE DESIGN *********/
-@media(max-width: 1974px){
-	#resume .right{
-		width: 760px;
-	}
-	#abt .banner_content{
-		margin-left: 200px;
-	}
-}
-
-
-@media(min-width: 1426px){
-	#resume .right{
-		width: 932px;
+@media(max-width: 2150px){
+	.Resume-flex{
+		margin-left: 50px;
 	}
 }
 @media(max-width: 1399px){
-	#abt .banner_content{
-		margin-left: 110px
+	.Resume-flex{
+		margin-left: -29px;
 	}
-	#abt .for_banner img{
-		width: 1227px;
+	.Resume-flex .right{
+		width: 817px;
+	}
+	.section_2 .for_banner .banner_content.active{
+		margin-left: 100px;
+		width: 350px;
 	}
 }
 @media(max-width: 1199px){
-	#abt .banner_content{
-		margin-left: 44px
+	.Resume-flex{
+		margin-left: -91px;
 	}
-	#abt .banner_content p{
-		font-size: 12px;
+	.Resume-flex .right{
+		width: 743px;
 	}
-}
-@media(max-width: 1074px){
-	#resume .right{
-		width: 646px;
+	.section_2 .for_banner .banner_content.active{
+		margin-left: 74px;
+		width: 325px;
+		line-height: 1;
 	}
-	#resume .left{
-		width: 297px;
+	.section_2 .for_banner .banner_content.active p{
+		font-size: 15px;
 	}
-	#resume .left p::after{
-		margin-left: -30px;
+	.section_4 .content .top-card-html{
+		width: 291px;
 	}
-}
-@media(max-width: 843px){
-	#resume .Resume-flex{
-		display: block;
+	.section_4 .content .bottom-card-html{
+		width: 291px;
 	}
-	#resume{
-		height: 1838px;
+	.section_4 .content .bottom-card-html a{
+		margin-top: -25px;
+		width: 125px;
+		
 	}
-	#resume .left{
-		width: 906px;
-	}
-	#resume .left p::after{
-		margin-left: 274px;
-	}
-	#resume .right{
-		width: 906px;
-	}
-
-}
-@media(max-width: 750px){
-	#resume{
-		height: 2000px;
-	}
-
 }
