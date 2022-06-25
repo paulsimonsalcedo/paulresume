@@ -78,3 +78,32 @@ window.addEventListener("scroll", function(){
  	backtotop.classList.toggle("showBacktoTop", window.scrollY > 60);
  	backtotop.style.transition = ".5s";
  }
+
+ let bgDark = document.querySelector(".ScreenPop");
+ let heading = document.querySelector(".Screen-header");
+ let logoSpan = document.querySelectorAll(".text");
+
+ window.addEventListener('load', function(){
+		setTimeout(function(){
+			logoSpan.forEach(function(span, idx){ // transition in. span and idx is parameter name in forEach.
+					setTimeout(function(){
+						span.classList.add('active');
+					},(idx + 1) * 400) //idx is the number of span * (400 milliseconds)
+				})
+			setTimeout(function() {
+				logoSpan.forEach(function(span, idx){ 
+					setTimeout(function() { // after 400 milliseconds > 1000 milliseconds next
+							span.classList.remove('active');
+							span.classList.add("fadeOut");
+					}, (idx + 1) * 300); //900 is yung pagitan ng dalawang idx sa pag out
+					
+				})
+			}, 1500);	// time kung kelan mag out
+
+			setTimeout(function(){
+				bgDark.classList.add("bgDarkActive");
+			}, 2500); // 2500 is time ng pagout ng background
+		
+		});
+
+ })
