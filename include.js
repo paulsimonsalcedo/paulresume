@@ -6,7 +6,7 @@ window.addEventListener("scroll", function(){
 			//FOR ABOUT PAGE
 
 			var reveals = document.querySelector(".banner_content");
-			reveals.classList.toggle("active", window.scrollY > 30)
+			reveals.classList.toggle("active", window.scrollY > 100)
 
 
 

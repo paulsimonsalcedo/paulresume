@@ -591,9 +591,9 @@ footer{
 	display: flex;
 }
 /***RESPONSIVE DESIGN *********/
-@media(max-width: 2150px){
+@media(max-width: 2298px){
 	.Resume-flex{
-		margin-left: 50px;
+		margin-left: 60px;
 	}
 }
 @media(max-width: 1399px){
@@ -633,5 +633,36 @@ footer{
 		margin-top: -25px;
 		width: 125px;
 		
+	}
+	
+}
+@media (max-width: 989px) {
+	#resume{
+		max-height: 1407px;
+	}
+	#resume .Resume-flex{
+		display: block;
+	}
+	#resume .Resume-flex .left{
+		min-height: 2px;
+		width: 864px;
+
+	}
+	#resume .Resume-flex .nAme p::after{
+		margin-left: 250px;
+	}
+	#resume .Resume-flex .right{
+		width: 54em;
+	}
+
+	#techstack{
+		max-height: 1250px;
+	}
+	#techstack .cards div:nth-child(3){
+		margin-left: 25%;
+		
+	}
+	#techstack .cards  div:nth-child(3) .bottom-card-html{
+		height: 287px;
 	}
 }
